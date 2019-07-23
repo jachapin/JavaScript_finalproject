@@ -1,0 +1,54 @@
+<!--
+Final Project
+WEB 124
+Jeff Chapin
+-->
+<html>
+    <head>
+        <title>Final Project - WEB 124</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1 id="heading">Final Project</h1>
+        
+        <h2>Manipulate the DOM</h2>
+        <button id="objective1">Objective 1</button> - Change the color of the page. Click again to change back.
+        <hr>
+        <h2>Add and remove HyperText Markup Language (HTML) document nodes</h2>
+        <button id="objective2">Objective 2</button> - Add a node to the document.
+        <hr>
+        <h2>Control the BOM</h2>
+        <button id="objective3">Objective 3</button> - Uses the window object to alert window properties and print the page.
+        <hr>
+        <h2>Enhance and validate form data</h2>
+        <label for="zip" id="zipLabel">Please enter a 5-digit ZIP code</label>
+		<form>
+            <input type="text" name="zip" id="zip">
+        </form>
+        <button id="objective4">Objective 4</button> - Verifies a 5-digit zip code is 5 digits and numbers only. Fires on click or blur.
+        <hr>
+        <h2>Create scripts using built-in JavaScript classes</h2>
+        <button id="objective5">Objective 5</button> - Displays today's date and calculates the number of days until New Year's.
+        <p id="showDays"></p>
+        <hr>
+        <h2>Manipulate data in strings and arrays</h2>
+        <label for="cityArray" id="lbCityArray">Please add cities: </label>
+        <textarea rows="1" cols="25" id="cityArray"></textarea> <button id="addCity">Add</button><p></p>
+        <button id="objective6">Objective 6</button> - Sorts and displays the array of cities
+        <p id="citiesOutput"></p>
+        <hr>
+        <h2>Validate JavaScript and apply advanced debugging techniques</h2>
+        <button id="objective7">Objective 7</button> - Runs function with try/catch
+        <p id="debugging"></p>
+        <hr>
+        <h2>Apply coding techniques to address JavaScript security issues</h2>
+        <p>Add a comment to the page!</p>
+        <textarea rows="8" cols="50" id="insecure"><script type='text/javascript'>alert('XSS attack!!');</script></textarea> 
+        <p><button id="objective8">Objective 8</button> - A XSS attack can allow malicious code to take over a page and access form data and a user's cookies. 
+        to prevent a XSS attack, validate form data and do not allow users to add HTML or JavaScript. Also, do not use innerHTML when adding user 
+        input to the page. </p>
+        <p id="crazyComments"></p>
+        <p id="test"></p>
+        <script src="script.js"></script>
+    </body>
+</html>

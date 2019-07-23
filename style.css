@@ -1,0 +1,43 @@
+/**
+Final Project
+Web 124
+Jeff Chapin
+*/
+
+body {
+    background-color: #26596A;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+}
+
+h1 {
+    color: #082C38;
+}
+
+h2 {
+    color: #C1E9F6;
+}
+
+.red {
+    color: #FFC6C9;
+}
+
+.redh1 {
+    color: #580A0E;
+}
+
+.redbg {
+    background-color: #A7383D;
+}
+
+nav {
+    display: block;
+    float: right;
+    width: 160px;
+    color: #C1E9F6;
+}
+
+.problem {
+    color: red;
+    font-weight: bold;
+}
